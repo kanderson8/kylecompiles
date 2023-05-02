@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Kyle Compiles</title>
+    <title>Kyle Anderson</title>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/9.17.2/firebase-app-compat.js"></script>
@@ -12,29 +12,53 @@
       to avoid connecting the SDK to running emulators.
     -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>This is my homepage.</h1>
-      <p>You're seeing this as evidence I'm not completely inept at building stuff on the web - hire me for more proof! </p>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <header class="bg-primary text-white py-3">
+      <div class="container">
+        <h1>Kyle Anderson</h1>
+      </div>
+    </header>
+    <main class="container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="kyle.jpeg" alt="Kyle" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8">
+          <h2>Hi, I'm Kyle!</h2>
+          <p>Welcome to Kyle Compiles, a website I put together to introduce myself and make use of this catchy domain name that I've 
+            held dormant for far too long. I'm a software engineering leader with five years of experience in developing distributed web 
+            applications at scale and growing high-performing teams to do the same. My resume (available for download below) already
+            has details about that, so I want to use this space to give a more personal, less keyword-oriented overview of who I am.
+
+            A bit of background on me: I was born and raised in the Midwest. I always had an interest in technology which led me to
+            study computer engineering and mathematics at the University of Iowa. After graduating in 2018, I moved out to Seattle
+            with my partner and began working full time as a software engineer in the Last Mile logistics organization at Amazon. I
+            spent the next few years developing some cool delivery planning systems before transitioning into management, where I built 
+            out a team of engineers to continue that work. After half a decade of figuring out better ways to get packages to your 
+            doorstep, I decided it was time for a change of pace, and I'm now on the search for my next adventure.
+
+            This site is built using vanilla HTML/JavaScript and a little bit of Bootstrap CSS. It is hosted using Google
+            Firebase and I manage the DNS through Google Domains. While I enjoyed making it, the skills I used are peripheral to
+            my primary expertise, which is leading engineering teams in building scalable and extensible production-grade web applications 
+            (usually in Java or Python, usually on AWS). Most of the artifacts I've produced demonstrating this are unfortunately not mine to share, 
+            so please check my resume below for the highlights and contact me at anderslkyle@gmail.com to learn more! 
+          </p>
+          <a href="resume.pdf" download class="btn btn-primary mr-3">Download My Resume</a>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-secondary text-white py-3">
+      <div class="container">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/kyle-anderson8/" class="text-white">LinkedIn</a></li>
+          <li class="list-inline-item"><a href="https://github.com/kanderson8" class="text-white">GitHub</a></li>
+          <li class="list-inline-item"><a href="mailto:anderslkyle@gmail.com" class="text-white">Email</a></li>
+        </ul>
+      </div>
+    </footer>
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -74,5 +98,6 @@
         }
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
